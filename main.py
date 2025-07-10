@@ -21,7 +21,7 @@ while len(guess_state) < 50:
     
     
     if ans_states in all_states:
-        guess_state.appen(ans_states)
+        guess_state.append(ans_states)
         t = turtle.Turtle()
         t.hideturtle()
         t.penup()
